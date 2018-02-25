@@ -1,0 +1,66 @@
+/* add your CSS here */
+h3 {
+  text-align: center;
+  color: white;
+}
+
+.interestingfact{
+  padding: 10px;
+  font-style: italic;
+}
+
+.label{
+  font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bordered {
+  padding: 10px;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+}
+
+.background {
+  position: absolute;
+z-index: -1;
+width: 344px;
+border-radius: 5px;
+height: 1020px;
+}
+
+.pad{
+  padding-bottom: 10px;
+}
+
+.information {
+  background: linear-gradient(to bottom right, #fffb3a, white);
+  border-style: double;
+  border-radius: 5px;
+}
+
+body {
+  text-align: justify;
+  font-family: verdana;
+  margin: auto;
+  width: 344px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.info {
+  margin: auto;
+  padding: 10px;
+}
+
+.image {
+  width: 300px;
+  margin: auto;
+  border-style: solid;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: white;
+}
