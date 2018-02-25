@@ -1,11 +1,7 @@
 const image = $(".image");
-const audio = document.getElementById("audio");
+const audio = $("audio");
 //
 //
 image.click(function() {
-  play(audio);
+  audio.play();
 });
-
-function play(audio){
-     audio.play();
-   };
